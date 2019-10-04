@@ -10,7 +10,7 @@ public class RegexNumber2 {
         String regex = "([0-9]+)+([^0-9])+([0-9]+)";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(liczba);
-        Double liczba3 = new Double(0);
+        Double liczba3 = (double) 0;
         if (matcher.find()) {
 
 liczba3= Double.parseDouble(matcher.group(3));

@@ -236,6 +236,8 @@ public class CalculatorView extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
 
+        System.out.println("test błędu");
+
         CalculatorView g = new CalculatorView();
         g.setLocation(500, 300);
         g.setSize(400, 400);
